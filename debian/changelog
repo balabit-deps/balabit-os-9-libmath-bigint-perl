@@ -1,0 +1,378 @@
+libmath-bigint-perl (1.999829-1) unstable; urgency=medium
+
+  * Import upstream version 1.999829.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 31 Dec 2021 19:27:34 +0100
+
+libmath-bigint-perl (1.999828-1) unstable; urgency=medium
+
+  * Import upstream version 1.999828.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 19 Dec 2021 13:10:07 +0100
+
+libmath-bigint-perl (1.999827-1) unstable; urgency=medium
+
+  * Import upstream version 1.999827.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 11 Oct 2021 19:30:37 +0200
+
+libmath-bigint-perl (1.999826-1) unstable; urgency=medium
+
+  * Import upstream version 1.999826.
+  * Update (test) dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 01 Oct 2021 22:49:08 +0200
+
+libmath-bigint-perl (1.999824-1) unstable; urgency=medium
+
+  * Import upstream version 1.999824.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 27 Sep 2021 12:45:16 +0200
+
+libmath-bigint-perl (1.999823-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ gregor herrmann ]
+  * Import upstream version 1.999823.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Sep 2021 17:21:28 +0200
+
+libmath-bigint-perl (1.999818-1) unstable; urgency=medium
+
+  * Import upstream version 1.999818.
+  * Update debian/upstream/metadata.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.4.1.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 02 Nov 2019 01:03:34 +0100
+
+libmath-bigint-perl (1.999816-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Oct 2018 17:06:35 +0200
+
+libmath-bigint-perl (1.999815-1) unstable; urgency=medium
+
+  * Import upstream version 1.999815
+  * Drop debian/tests/pkg-perl/syntax-skip.
+    The previously skipped file is gone.
+  * Declare compliance with Debian Policy 4.2.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 21 Oct 2018 21:48:46 +0200
+
+libmath-bigint-perl (1.999813-1) unstable; urgency=medium
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ Damyan Ivanov ]
+  * declare conformance with Policy 4.1.3 (no changes needed)
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Update build dependencies.
+  * Declare compliance with Debian Policy 4.1.4.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 21 Apr 2018 21:29:14 +0200
+
+libmath-bigint-perl (1.999811-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.0.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 04 Aug 2017 17:27:05 -0400
+
+libmath-bigint-perl (1.999808-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999808
+
+ -- Angel Abad <angel@debian.org>  Thu, 12 Jan 2017 08:54:47 +0100
+
+libmath-bigint-perl (1.999807-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999807
+
+ -- Angel Abad <angel@debian.org>  Sat, 24 Dec 2016 10:20:11 +0100
+
+libmath-bigint-perl (1.999806-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999806
+
+ -- Angel Abad <angel@debian.org>  Thu, 15 Dec 2016 13:21:33 +0100
+
+libmath-bigint-perl (1.999804-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999804
+  * debian/patches/spelling-errors: Remove, applied upstream.
+
+ -- Angel Abad <angel@debian.org>  Sat, 10 Dec 2016 08:48:25 +0100
+
+libmath-bigint-perl (1.999803-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999803
+  * debian/libmath-bigint-perl.docs: Remove BENCHMARK file,
+    removed upstream.
+  * debian/copyright: Remove inc/Module/* section.
+
+ -- Angel Abad <angel@debian.org>  Tue, 06 Dec 2016 11:01:51 +0100
+
+libmath-bigint-perl (1.999802-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999802
+
+ -- Angel Abad <angel@debian.org>  Tue, 29 Nov 2016 11:33:38 +0100
+
+libmath-bigint-perl (1.999801-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999801
+
+ -- Angel Abad <angel@debian.org>  Sun, 27 Nov 2016 09:32:01 +0100
+
+libmath-bigint-perl (1.999800-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999800
+  * debian/patches/spelling-errors: Update patch.
+
+ -- Angel Abad <angel@debian.org>  Fri, 18 Nov 2016 10:22:36 +0100
+
+libmath-bigint-perl (1.999727-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999727
+  * debian/patches/spelling-errors: Refresh patch.
+
+ -- Angel Abad <angel@debian.org>  Sun, 06 Nov 2016 09:10:42 +0100
+
+libmath-bigint-perl (1.999726-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+
+  [ Angel Abad ]
+  * Import upstream version 1.999726
+  * debian/copyright: Update years.
+  * debian/patches/spelling-errors: Fix spelling errors.
+
+ -- Angel Abad <angel@debian.org>  Sat, 29 Oct 2016 22:28:10 +0200
+
+libmath-bigint-perl (1.999722-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 28 Apr 2016 17:10:01 +0200
+
+libmath-bigint-perl (1.999718-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999718
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Mon, 25 Apr 2016 13:33:34 -0300
+
+libmath-bigint-perl (1.999717-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Update build dependencies.
+  * Declare compliance with Debian Policy 3.9.8.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 17 Apr 2016 15:57:36 +0200
+
+libmath-bigint-perl (1.999715-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999715
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Fri, 08 Jan 2016 00:39:39 -0200
+
+libmath-bigint-perl (1.999714-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999714
+  * Update year of upstream copyright
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Mon, 04 Jan 2016 08:05:22 -0200
+
+libmath-bigint-perl (1.999710-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.999710
+  * Update year of upstream copyright
+  * Update upstream contact in metadata
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Tue, 17 Nov 2015 09:11:52 -0200
+
+libmath-bigint-perl (1.999709-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Make build dependency on Test::More versioned.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 09 Nov 2015 18:19:44 +0100
+
+libmath-bigint-perl (1.999708-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 1.999708
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 08 Nov 2015 09:16:02 +0100
+
+libmath-bigint-perl (1.999707-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Lucas Kanashiro ]
+  * Import upstream version 1.999707
+
+  [ gregor herrmann ]
+  * Update debian/copyright.
+    Bump copyright years, new Upstream-Contact, remove Comment.
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sat, 31 Oct 2015 16:44:28 -0200
+
+libmath-bigint-perl (1.999704-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Lucas Kanashiro ]
+  * Import upstream version 1.999704
+
+  [ gregor herrmann ]
+  * Rename debian/tests/pkg-perl/skip-syntax to syntax-skip.
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Tue, 29 Sep 2015 13:45:15 -0300
+
+libmath-bigint-perl (1.999703-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 24 Sep 2015 22:52:49 +0200
+
+libmath-bigint-perl (1.999701-1) unstable; urgency=medium
+
+  * debian/watch: add uversionmangle in case upstream uses less then 6
+    digits for minor versions in the future.
+  * Import upstream version 1.999701.
+    Closes: #788260
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 13 Sep 2015 17:13:49 +0200
+
+libmath-bigint-perl (1.9997-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Lucas Kanashiro ]
+  * Add debian/upstream/metadata
+  * Import upstream version 1.9997
+  * Declare compliance with Debian policy 3.9.6
+  * Bump debhelper compatibility level to 9
+  * Add autopkgtest-pkg-perl
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sun, 16 Aug 2015 06:34:14 -0300
+
+libmath-bigint-perl (1.9993-1) unstable; urgency=low
+
+  [ Alessandro Ghedini ]
+  * Email change: Alessandro Ghedini -> ghedo@debian.org
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+  * debian/copyright: update wording of Comment about copyright
+    ownership.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  * New upstream release.
+    Fixes "uninstallable in sid - obsoleted by perl 5.18"
+    (Closes: #726948)
+  * Update years of third-party and packaging copyright.
+  * Drop historic debian/TODO.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 13 Apr 2014 17:11:10 +0200
+
+libmath-bigint-perl (1.997-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Bump Standards-Version to 3.9.2 (no changes needed)
+  * Update inc/Module/ copyright
+  * Add myself to Uploaders
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Mon, 05 Sep 2011 11:59:36 +0200
+
+libmath-bigint-perl (1.993-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update copyright holders and years.
+  * Add build dependencies on libtest-pod-perl, libtest-pod-coverage-perl.
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Add myself to Uploaders and Copyright
+  * Bump debhelper compat to 8
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 18 Mar 2011 23:08:25 +0100
+
+libmath-bigint-perl (1.96-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove spelling.patch, applied upstream.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 02 Oct 2010 18:04:29 +0200
+
+libmath-bigint-perl (1.95-1) unstable; urgency=low
+
+  * Initial release (closes: #597954).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 24 Sep 2010 16:32:56 +0200

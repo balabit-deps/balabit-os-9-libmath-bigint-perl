@@ -1,0 +1,32 @@
+Source: libmath-bigint-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libscalar-list-utils-perl <!nocheck>,
+                     perl
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmath-bigint-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmath-bigint-perl.git
+Homepage: https://metacpan.org/release/Math-BigInt
+Rules-Requires-Root: no
+
+Package: libmath-bigint-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libscalar-list-utils-perl
+Description: arbitrary size integer/float math package
+ Math::BigInt and Math::BigFloat allow one to declare big integers / floating
+ point numbers as
+ .
+  $i = new Math::BigInt '123_456_789_123_456_789';
+  $i = new Math::BigFloat '12_3.456_789_123_456_789E-2';
+ .
+ All operators are overloaded; operations with overloaded operators preserve
+ the arguments.
+ .
+ Math::BigInt is also in perl core, this package provides newer versions
+ separately.

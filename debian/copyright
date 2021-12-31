@@ -1,0 +1,37 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Math-BigInt
+Upstream-Contact: Peter John Acklam <pjacklam@online.no>
+Source: https://metacpan.org/release/Math-BigInt
+
+Files: *
+Copyright: 1996-2001, Mark Biggar
+ 1996-2001, Ilya Zakharevich
+ 2001-2008, Tels <nospam-abuse@bloodgate.com>
+ 2010, Florian Ragwitz <flora@cpan.org>
+ 2011-2021, Peter John Acklam <pjacklam@online.no>
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2010-2021, gregor herrmann <gregoa@debian.org>
+ 2011, Jonathan Yu <jawnsy@cpan.org>
+ 2011, Alessandro Ghedini <ghedo@debian.org>
+ 2015-2016, Lucas Kanashiro <kanashiro.duarte@gmail.com>
+ 2015, Salvatore Bonaccorso <carnil@debian.org>
+ 2016, Angel Abad <angel@debian.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.
